@@ -1,0 +1,35 @@
+﻿<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GET_TOKEN" />
+
+        <TextView
+            android:id="@+id/tv_show_token"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/SHOW_TOKEN" />
+
+        <Button
+            android:id="@+id/bt_getdata_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GET_REQUEST" />
+
+        <TextView
+            android:id="@+id/tv_return_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/SHOW_RETURN_CODE" />
+    </LinearLayout>
+
+</ScrollView>
